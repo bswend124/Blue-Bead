@@ -8,6 +8,7 @@
                 'menu' => 'Bottom Menu',
                 'container' => 'div',
                 'container_class' => 'bottom-menu',
+                'falback_cb' => false,
                 'theme_location' => 'bottom-menu',
                 )
             );
