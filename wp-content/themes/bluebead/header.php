@@ -21,5 +21,16 @@
     <div id="header">
         <h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
     </div>
-
-<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'nav', 'theme_location' => 'primary-menu' ) ); ?>
+    
+    <?php 
+    	// Check if there's a top menu
+    	if ( has_nav_menu ( 'top-menu' ) ) {    		
+    		// If it exist, add it
+    		wp_nav_menu ( array(
+    			'menu' => 'Top Menu',
+    			'container_class' => 'top-menu',
+    			'theme_location' => 'top-menu',
+    			)
+    		);
+    	}
+    ?>
