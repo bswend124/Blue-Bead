@@ -28,6 +28,7 @@
     		// If it exist, add it
     		wp_nav_menu ( array(
     			'menu' => 'Top Menu',
+    			'container' => 'div'
     			'container_class' => 'top-menu',
     			'theme_location' => 'top-menu',
     			)
