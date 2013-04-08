@@ -6,6 +6,7 @@
             // if there is, add it
             wp_nav_menu( array(
                 'menu' => 'Bottom Menu',
+                'container' => 'div',
                 'container_class' => 'bottom-menu',
                 'theme_location' => 'bottom-menu',
                 )
