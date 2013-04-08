@@ -30,6 +30,7 @@
     			'menu' => 'Top Menu',
     			'container' => 'div'
     			'container_class' => 'top-menu',
+    			'fallback_cb' => false,
     			'theme_location' => 'top-menu',
     			)
     		);
