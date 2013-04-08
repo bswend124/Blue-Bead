@@ -59,18 +59,18 @@ textarea {
 }
 
 /*****Navigation******/
-.nav{
+.top-menu{
     width:960px;
     display:block;
     float:left;
     position:relative;
 }
  
-.nav ul{
+.top-menu ul{
     list-style:none;
 }
  
-.nav li{
+.top-menu li{
     float:left;
     position:relative;
 }
